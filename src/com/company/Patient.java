@@ -14,8 +14,9 @@ class Patient {
     Patient(String name, String sickness) {
         this.name = name;
 
-        if (sickness == null) {
+        if (sickness == null || sickness.equals("")) {
             this.isSick = false;
+            this.sickness = "";
         } else {
             this.sickness = sickness;
             this.isSick = true;
