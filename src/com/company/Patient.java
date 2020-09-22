@@ -1,13 +1,12 @@
 package com.company;
-import java.lang.*;
 
-public class Patient {
-    String name;
-    String sickness;
-    boolean isSick;
+class Patient {
+    private String name;
+    private String sickness;
+    private boolean isSick;
 
     Patient(String name) {
-        this.name= name;
+        this.name = name;
         this.sickness = "";
         this.isSick = false;
     }
@@ -30,7 +29,7 @@ public class Patient {
 
     String getSickness() {
         return this.sickness;
-        }
+    }
 
     String getName() {
         return this.name;
