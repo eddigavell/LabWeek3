@@ -1,4 +1,4 @@
-package kyh.labs.lab3;
+package com.company;
 
 class Doctor {
     private String name;
