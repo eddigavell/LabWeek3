@@ -11,3 +11,4 @@ class Medicine {
         return treatsSickness;
     }
 }
+
