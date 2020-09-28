@@ -1,5 +1,5 @@
 package com.company;
-/*
+
 class Patient {
     private String name;
     private String sickness;
@@ -39,8 +39,7 @@ class Patient {
     }
 
 }
- */
-
+/*
 class Patient {
     private String name;
     private String sickness;
@@ -71,4 +70,6 @@ class Patient {
             this.sickness = null;
         }
     }
+
 }
+*/
